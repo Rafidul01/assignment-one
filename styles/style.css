@@ -122,3 +122,45 @@
   padding-left: 32px;
 }
 /* night-party section end */
+
+/* event details section start */
+.event-info-container {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.event-info-container .event-infos .info {
+  color: #070211;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event-info-container .event-infos span {
+  color: #f00;
+}
+.btn-join {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 48px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* event details section end */
