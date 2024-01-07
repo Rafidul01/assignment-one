@@ -7,6 +7,14 @@
   /* font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif; */
 }
+
+.para-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
 /* banner part start */
 .banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -164,3 +172,54 @@
   text-transform: uppercase;
 }
 /* event details section end */
+/* coming soon section start  */
+.coming-soon-container {
+  width: 1320px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
+}
+.coming-soon-container #best-offer {
+  width: 393px;
+}
+.coming-soon-container #best-offer .offer-txt {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.coming-soon-container #best-offer .soon-txt {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.coming-soon-container #cerculer-img {
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.coming-soon-container #cerculer-img > div {
+    margin: 49.08px;
+}
+.coming-soon-container #new-year-massage{
+    width: 276px;
+}
+.coming-soon-container #new-year-massage .this-year{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 112px;
+}
+.coming-soon-container #new-year-massage > .para-text {
+    padding-top: 16px;
+    padding-bottom: 43px;
+}
+/* coming soon section start  */
