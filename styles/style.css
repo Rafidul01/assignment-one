@@ -60,13 +60,14 @@
 }
 .category-container .off-txt {
   color: #f00;
-  text-align: center;
+  /* text-align: center; */
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 .category-container .holiday-txt {
   color: #f00;
+  /* text-align: center; */
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
@@ -233,17 +234,17 @@
   align-items: center;
   margin: 0 auto;
 }
-.holiday-txt {
+.holiday-txt-con {
   text-align: center;
   width: 1068px;
 }
-.holiday-container .holiday-txt .holiday-title {
+.holiday-container .holiday-txt-con .holiday-title {
   color: #070211;
   font-size: 24px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
-.holiday-container .holiday-txt .holiday-sale {
+.holiday-container .holiday-txt-con .holiday-sale {
   color: #070211;
   font-family: "Merriweather", serif;
   font-size: 72px;
@@ -251,10 +252,10 @@
   padding-top: 16px;
   padding-bottom: 28px;
 }
-.holiday-container .holiday-txt .holiday-sale > span {
+.holiday-container .holiday-txt-con .holiday-sale > span {
   color: #f00;
 }
-.holiday-container .holiday-txt > p {
+.holiday-container .holiday-txt-con > p {
   font-weight: 500;
   margin-bottom: 64px;
 }
