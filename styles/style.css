@@ -206,20 +206,86 @@
   border: 15px solid #f00;
 }
 .coming-soon-container #cerculer-img > div {
-    margin: 49.08px;
+  margin: 49.08px;
 }
-.coming-soon-container #new-year-massage{
-    width: 276px;
+.coming-soon-container #new-year-massage {
+  width: 276px;
 }
-.coming-soon-container #new-year-massage .this-year{
-    color: #F00;
-    font-family: "Inter", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    padding-top: 112px;
+.coming-soon-container #new-year-massage .this-year {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 112px;
 }
 .coming-soon-container #new-year-massage > .para-text {
-    padding-top: 16px;
-    padding-bottom: 43px;
+  padding-top: 16px;
+  padding-bottom: 43px;
 }
-/* coming soon section start  */
+
+/* coming soon section end  */
+
+/* holiday section start  */
+.holiday-container {
+  width: 1320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.holiday-txt {
+  text-align: center;
+  width: 1068px;
+}
+.holiday-container .holiday-txt .holiday-title {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.holiday-container .holiday-txt .holiday-sale {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 16px;
+  padding-bottom: 28px;
+}
+.holiday-container .holiday-txt .holiday-sale > span {
+  color: #f00;
+}
+.holiday-container .holiday-txt > p {
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+.holiday-img-container {
+  /* display: flex; */
+  width: 1320px;
+  height: 708px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.holiday-img-container .red-line {
+  position: absolute;
+  bottom: 0;
+}
+.holiday-img-container .gift-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.holiday-img-container .shopping {
+  position: absolute;
+  bottom: 229px;
+  right: 0;
+}
+.holiday-img-container .dis-five {
+  position: absolute;
+  bottom: 288.48px;
+  right: 255.92px;
+}
+/* holiday section end */
