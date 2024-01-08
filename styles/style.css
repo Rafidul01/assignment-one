@@ -31,12 +31,18 @@
   margin-bottom: 22px;
 }
 .btn:hover {
-    cursor: pointer;
-    background-color:rgb(201, 52, 52) ;
-    transition: 0.3s;
-    
+  cursor: pointer;
+  background-color: rgb(201, 52, 52);
+  transition: 0.3s;
 }
-/* styles for everyone start */
+.t-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* styles for everyone end */
 
 /* banner part start */
 .banner {
@@ -143,15 +149,16 @@
   padding-top: 24px;
   padding-bottom: 48px;
 }
-.party-text-container > a {
-  color: #fff;
-  text-align: center;
-  font-family: "Inter", sans-serif;
+.party-text-container > .t-btn {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
   padding-left: 32px;
+}
+.party-text-container > .t-btn:hover {
+  cursor: pointer;
+  transform: translate(0, 5px);
+  transition: 0.5s;
 }
 /* night-party section end */
 
@@ -370,3 +377,55 @@
   padding-left: 30px;
 }
 /* newsletter section end  */
+/* footer design start */
+footer {
+  background: #070211;
+  font-family: "Inter", sans-serif;
+}
+.footer-container {
+  width: 1320px;
+  height: 609px;
+  border-radius: 16px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.street {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 375px;
+}
+.footer-up {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-up > div {
+  display: flex;
+  gap: 16px;
+}
+.footer-up > img {
+  width: 24px;
+  height: 24px;
+}
+.midea-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0;
+}
+
+footer .footer-container > hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.rights {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/* footer design end */
