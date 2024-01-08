@@ -408,10 +408,9 @@ footer {
 .footer-up > div {
   display: flex;
   gap: 16px;
-}
-.footer-up > img {
-  width: 24px;
+  padding-bottom: 16px;  
   height: 24px;
+  align-items: center;
 }
 .midea-icons {
   display: flex;
